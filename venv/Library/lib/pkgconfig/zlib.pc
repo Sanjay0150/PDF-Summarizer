@@ -1,0 +1,13 @@
+prefix=D:/PDF Summarizer/venv/Library
+exec_prefix=D:/PDF Summarizer/venv/Library
+libdir=D:/PDF Summarizer/venv/Library/lib
+sharedlibdir=D:/PDF Summarizer/venv/Library/lib
+includedir=D:/PDF Summarizer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
